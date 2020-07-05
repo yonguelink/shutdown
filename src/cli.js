@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const yargs = require('yargs');
 
 async function runCommand (fn, ...args) {
