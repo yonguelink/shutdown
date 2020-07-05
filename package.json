@@ -1,0 +1,25 @@
+{
+  "name": "shutdown",
+  "version": "0.0.0",
+  "description": "Shutdown that PC",
+  "author": "yonguelink <isaac.computing@gmail.com>",
+  "license": "GNU General Public License v3.0",
+  "private": false,
+  "scripts": {
+    "lint": "eslint .",
+    "start": "./src/cli.js"
+  },
+  "devDependencies": {
+    "eslint": "^7.4.0",
+    "eslint-config-semistandard": "^15.0.0",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.7.0",
+    "eslint-plugin-standard": "^4.0.1"
+  },
+  "dependencies": {
+    "yargs": "^15.3.1"
+  }
+}
