@@ -20,6 +20,8 @@
     "eslint-plugin-standard": "^4.0.1"
   },
   "dependencies": {
+    "moment": "^2.27.0",
+    "yamaha-receiver-control": "https://github.com/yonguelink/yamaha-receiver-control.git",
     "yargs": "^15.3.1"
   }
 }
