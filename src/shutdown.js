@@ -7,7 +7,9 @@ module.exports = async function () {
   // Shutdown the receiver only if it's late - otherwise we might be working on something elsewhere with music
   const now = moment();
   const late = moment().hours(21).minute(30);
-  if (now.isSameOrAfter(late)) {
+  const wayTooEarly = moment().hours(5).minute(0);
+
+  if (now.isSameOrAfter(late) || now.isSameOrBefore(wayTooEarly)) {
     await receiver.turnOff();
   }
 
