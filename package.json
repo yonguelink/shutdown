@@ -10,18 +10,18 @@
     "start": "./src/cli.js"
   },
   "devDependencies": {
-    "eslint": "^7.4.0",
-    "eslint-config-semistandard": "^15.0.0",
-    "eslint-config-standard": "^14.1.0",
+    "eslint": "^8.19.0",
+    "eslint-config-semistandard": "^16.0.0",
+    "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.11.0",
     "eslint-plugin-node": "^11.1.0",
-    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
     "eslint-plugin-react": "^7.7.0",
-    "eslint-plugin-standard": "^4.0.1"
+    "eslint-plugin-standard": "^5.0.0"
   },
   "dependencies": {
     "moment": "^2.27.0",
     "yamaha-receiver-control": "https://github.com/yonguelink/yamaha-receiver-control.git",
-    "yargs": "^15.3.1"
+    "yargs": "^17.5.1"
   }
 }
